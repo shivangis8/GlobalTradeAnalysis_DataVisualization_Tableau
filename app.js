@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/GlobalTradeAnalysis_Shivangi/Prese
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1000,
-    width: 1200,
+    height: 800,
+    width: 1000,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
